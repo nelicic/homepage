@@ -7,7 +7,7 @@
 }
 :root {
 	--primary-color: #ff7613;
-	--text-color: #727171;
+	--text-color: #999999;
 }
 html {
 	font-size: 10px;
@@ -183,7 +183,11 @@ a {
 .awards_item {
 	margin-top: 2rem;
 }
-/* Interests */
+/* Interests */ 
+.interest {
+	margin-top: 40px;
+}
+
 .interest_items {
 	margin-top: 2rem;
 	display: flex;
@@ -191,6 +195,12 @@ a {
 	flex-wrap: wrap;
 	gap: 2rem;
 }
+
+.icon {
+	margin: 10px 0 0 5px;
+	fill: var(--primary-color);
+  }
+
 .interest_item {
 	font-size: 1.5rem;
 	display: flex;
